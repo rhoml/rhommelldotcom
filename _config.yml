@@ -1,0 +1,30 @@
+auto: false
+server: false
+lsi: false
+pygments: true
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:day/:title
+paginate: 1
+category_dir: topics
+category_title_prefix: 
+exclude: ["lib", "blog.rb", "Capfile", "config", "log", "Rakefile", "tmp"]
+destination: public
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  compress:
+    js:   uglifier
+    css:  yui
+  cachebust: hard
+
+
+name: Minid.net
+description: blog de tecnología, diseño, ciencia y opinión. Escrito por Diego Lafuente, desde 2001.
+url: http://minid.net
+
