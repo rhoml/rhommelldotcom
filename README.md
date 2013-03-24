@@ -1,12 +1,8 @@
-# This is data for my blog
+# gitwatcher-blog
 
-It is automatically transformed by Jekyll into a static site whenever I push this repository to GitHub.
+The blog engine behind [http://gitwatcher.com/blog](http://gitwatcher.com/blog) is currently based on [jekyll](http://github.com/mojombo/jekyll)
 
 ## License
 
-The following directories and their contents are Copyright Diego Martín Lafuente. You may not reuse anything therein without my permission:
+   _posts/ directories and their contents are Copyright by [Luca G. Soave](https://github.com/lgs), all other directories and files are MIT Licensed. [Jekyll is also  MIT Licensed](https://github.com/mojombo/jekyll/blob/master/LICENSE)
 
-* _posts/
-* images/
-
-All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/mojombo/jekyll would be appreciated, but is not required.
